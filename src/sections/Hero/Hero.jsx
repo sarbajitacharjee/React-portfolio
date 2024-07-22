@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/Design uten navn.png';
+import heroImg from '../../assets/mypicture.jpg';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -25,6 +25,8 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
+          height={380}
+          width={100}
           alt="Profile picture of Sarbajit Acharjee"
         />
         <img
