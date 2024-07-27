@@ -55,7 +55,9 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern website ...
+        With a passion for developing modern web apps for Skill Building.
+
+.
         </p>
         <a href={Resume} download>
           <button className="hover">Resume</button>
