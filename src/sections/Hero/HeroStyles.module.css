@@ -61,10 +61,14 @@
 
 .colorModeContainer {
   position: relative;
-  
-  
 }
 
+@media (min-width:500) {
+  .colorModeContainer {
+    position: relative;
+  
+  }
+}
 
 .colorMode {
   position: absolute;
@@ -87,13 +91,6 @@
   gap: 20px;
 }
 
-@media (width<=500) {
-  
-  .colorModeContainer{
-    position: relative;
-    margin-top: 500px;
-  }
-}
 @media (width >= 800px) {
   .container {
     flex-direction: row-reverse;
