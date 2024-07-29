@@ -18,7 +18,7 @@ function Projects() {
         />
         <ProjectCard
           src={freedom}
-          link="https://freedom-fighters-gold.vercel.app/"
+          link="https://freedom-fighters-opal.vercel.app/"
           h3="FreeDom Fighters"
           p="Tribute To Freedom Fighters"
         />
