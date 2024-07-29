@@ -1,9 +1,11 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
 import React from 'react';
 
 function ProjectCard({ src, link, h3, p }) {
   return (
     <a href={link} target="_blank">
-      <img className="hover" src={src} alt={`${h3} logo`} />
+      <img className="hover " src={src} alt={`${h3} logo`} height={300} />
       <h3>{h3}</h3>
       <p>{p}</p>
     </a>
