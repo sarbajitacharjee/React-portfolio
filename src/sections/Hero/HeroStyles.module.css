@@ -12,6 +12,7 @@
     border-radius: 50%;
     width: 340px;
     object-fit: cover;
+    
   }
 
 
@@ -60,7 +61,10 @@
 
 .colorModeContainer {
   position: relative;
+  
+  
 }
+
 
 .colorMode {
   position: absolute;
@@ -83,6 +87,13 @@
   gap: 20px;
 }
 
+@media (width<=500) {
+  
+  .colorModeContainer{
+    position: relative;
+    margin-top: 500px;
+  }
+}
 @media (width >= 800px) {
   .container {
     flex-direction: row-reverse;
