@@ -44,20 +44,18 @@ function Hero() {
         </h1>
         <h2>Frontend Developer</h2>
         <span>
-          <a href="https://x.com/SarbajitAcharj2" target="_blank">
+          <a href="https://x.com/SarbajitAcharj2" target="_blank" rel="noopener noreferrer">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
-          <a href="https://github.com/sarbajitacharjee" target="_blank">
+          <a href="https://github.com/sarbajitacharjee" target="_blank" rel="noopener noreferrer">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://www.linkedin.com/in/sarbajit-achariya25/" target="_blank">
+          <a href="https://www.linkedin.com/in/sarbajit-achariya25/" target="_blank" rel="noopener noreferrer">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
         <p className={styles.description}>
-        With a passion for developing modern web apps for Skill Building.
-
-.
+          With a passion for developing modern web apps for Skill Building.
         </p>
         <a href={Resume} download>
           <button className="hover">Resume</button>
