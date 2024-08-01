@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
 import logo from '../../assets/Hogwarts-bg.png';
 import freedom from '../../assets/freedom.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import Weather from '../../assets/weather.png';
+// import Calc from '../../assets/fitlift.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -23,17 +23,17 @@ function Projects() {
           p="Tribute To Freedom Fighters"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={Weather}
+          link="https://weather-forecast-site.vercel.app/"
+          h3="Weather App"
+          p="Get 5 days Forecast"
         />
-        <ProjectCard
+        {/* <ProjectCard
           src={fitLift}
           link="https://github.com/Ade-mir/company-landing-page-2"
           h3="FitLift"
           p="Fitness App"
-        />
+        /> */}
       </div>
     </section>
   );
