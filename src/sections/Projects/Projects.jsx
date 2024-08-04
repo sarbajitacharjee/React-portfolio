@@ -1,6 +1,6 @@
 import styles from './ProjectsStyles.module.css';
 import logo from '../../assets/Hogwarts-bg.png';
-import freedom from '../../assets/freedom.png';
+import freedom from '../../assets/fighters.jpg';
 import Weather from '../../assets/weather.png';
 import Calc from '../../assets/Convert.png';
 import ProjectCard from '../../common/ProjectCard';
