@@ -1,6 +1,12 @@
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Live Link 
+![Live Link Spotted](https://sarbajit-portfolio.vercel.app/)
+
+### Portfolio Page
+
+![Home Page Screenshot](public/face.png)
 
 Currently, two official plugins are available:
 
