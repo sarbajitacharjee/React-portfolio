@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+import gsap from 'gsap';
 import styles from './HeroStyles.module.css';
 import heroImg from '../../assets/mypicture.jpg';
 import sun from '../../assets/sun.svg';
@@ -11,6 +13,7 @@ import linkedinDark from '../../assets/linkedin-dark.svg';
 import Resume from '../../assets/Resume.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
+
 function Hero() {
   const { theme, toggleTheme } = useTheme();
 
@@ -18,6 +21,29 @@ function Hero() {
   const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
   const githubIcon = theme === 'light' ? githubLight : githubDark;
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
+
+  useEffect(() => {
+    gsap.fromTo(
+      `.${styles.hero}`,
+      { opacity: 0, scale: 0.95 },
+      { opacity: 1, scale: 1, duration: 1, ease: 'easeInOut' }
+    );
+    gsap.fromTo(
+      `.${styles.info}`,
+      { opacity: 0, y: 30 },
+      { opacity: 1, y: 0, duration: 1, ease: 'easeInOut' }
+    );
+    gsap.fromTo(
+      `.${styles.colorModeContainer}`,
+      { opacity: 0, y: 20 },
+      { opacity: 1, y: 0, duration: 1, ease: 'easeInOut', delay: 0.5 }
+    );
+    gsap.fromTo(
+      `.${styles.colorMode}`,
+      { rotation: 0 },
+      { rotation: 360, duration: 1, ease: 'easeInOut', repeat: -1 }
+    );
+  }, []);
 
   return (
     <section id="hero" className={styles.container}>
