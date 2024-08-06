@@ -4,7 +4,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 # Demo Link 
 [Live Link Spotted](https://sarbajit-portfolio.vercel.app/)
 
-### Portfolio Page
+### Portfolio FrontPage
 
 ![Home Page Screenshot](public/face.png)
 
