@@ -4,6 +4,7 @@ import freedom from '../../assets/fighters.jpg';
 import Weather from '../../assets/weather.png';
 import Calc from '../../assets/Convert.png';
 import ProjectCard from '../../common/ProjectCard';
+import Word from '../../assets/words.jpg';
 
 function Projects() {
   return (
@@ -34,6 +35,12 @@ function Projects() {
           link="https://online-converter-calculator.vercel.app/"
           h3="Converter"
           p="Convert Unit and Calculator App"
+        />
+        <ProjectCard
+          src={Word}
+          link="https://dictionary-phi-three.vercel.app/"
+          h3="Dictionary"
+          p="Word Galaxy Dictionary"
         />
       </div>
     </section>
