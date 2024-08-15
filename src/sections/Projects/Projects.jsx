@@ -47,7 +47,7 @@ function Projects() {
           src={Quote}
           link="https://quote-generator-gilt-beta.vercel.app/"
           h3="Quote Generator"
-          p="Get Quote For For any Category"
+          p="Get Quote For any Category"
         />
       </div>
     </section>
