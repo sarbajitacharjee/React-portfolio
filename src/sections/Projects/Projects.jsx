@@ -5,6 +5,7 @@ import Weather from '../../assets/weather.png';
 import Calc from '../../assets/Convert.png';
 import ProjectCard from '../../common/ProjectCard';
 import Word from '../../assets/words.jpg';
+import Quote from '../../assets/Quote.png';
 
 function Projects() {
   return (
@@ -41,6 +42,12 @@ function Projects() {
           link="https://dictionary-phi-three.vercel.app/"
           h3="Dictionary"
           p="Word Galaxy Dictionary"
+        />
+        <ProjectCard
+          src={Quote}
+          link="https://quote-generator-gilt-beta.vercel.app/"
+          h3="Quote Generator"
+          p="Get Quote For For any Category"
         />
       </div>
     </section>
