@@ -1,6 +1,6 @@
 import styles from './ProjectsStyles.module.css';
 import logo from '../../assets/Hogwarts-bg.png';
-import freedom from '../../assets/fighters.jpg';
+import freedom from '../../assets/Net.webp';
 import Weather from '../../assets/weather.png';
 import Calc from '../../assets/Convert.png';
 import ProjectCard from '../../common/ProjectCard';
@@ -21,9 +21,9 @@ function Projects() {
         />
         <ProjectCard
           src={freedom}
-          link="https://freedom-fighters-opal.vercel.app/"
-          h3="FreeDom Fighters"
-          p="Tribute To Freedom Fighters"
+          link="https://sarbajitacharjee.github.io/Netflix_Clone/"
+          h3="Netflix Clone"
+          p="Responsive Netflix Website Clone"
         />
         <ProjectCard
           src={Weather}
